@@ -3,7 +3,9 @@
 This is the repository for paper "*ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Language*"
 
 ## Metric Model
-The trained metric `ImpScore` is available on HuggingFace. [to be done]
+The trained metric **ImpScore** is uploaded to HuggingFace. [[link](https://huggingface.co/audreyeleven/ImpScore)]
+
+Instructions on how to use **ImpScore** is introduced there.
 
 ## Training Data
 The training data consists of 112580 sentence pairs in form of (implicit sentence, explicit sentence). It is available in file `train_data.csv`. In the file, the first row is the header, and each following row consists of two sentence pairs:
