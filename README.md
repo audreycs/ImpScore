@@ -23,6 +23,7 @@ pytorch=2.3.0
 transformers=4.36.2
 datasets=2.19.1
 numpy=1.26.4
+sentence-transformers=3.0.1
 ```
 
 To run the code, simply enter
