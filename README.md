@@ -38,7 +38,7 @@ When training is finished, the code automatically generates figures for:
 **Feel free to modify or extend the data in `all_data.csv` file and train your own metric.**
 
 ### Download metric model
-A trained **ImpScore** metric is avaible for downloading on HuggingFace. [[link](https://huggingface.co/audreyeleven/ImpScore)]
+A trained ImpScore metric is available for download on HuggingFace [[link](https://huggingface.co/audreyeleven/ImpScore)].
 
 Instructions on how to use **ImpScore** is introduced there.
 
