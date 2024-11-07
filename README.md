@@ -13,7 +13,7 @@ The code for training the metric is in the repository:
 └── utils.py 
 ```
 
-Key packages required to run the code is below. Ensure that you have a GPU.
+Key packages required to run the code are listed below. Ensure that you have a GPU.
 ```plaintext
 openai==1.34.0
 tqdm=4.65.0
