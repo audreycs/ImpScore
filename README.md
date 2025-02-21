@@ -1,9 +1,12 @@
 # ImpScore
 
-This is the repository for paper "*ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Language*"
+This is the repository for paper [ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentence](https://openreview.net/forum?id=gYWqxXE5RJ) accepted to ICLR 2025.
 
 ## Metric Model
-### Metric training
+### Usage 1: Download on Huggingface
+A trained ImpScore metric is available for download on HuggingFace [[link](https://huggingface.co/audreyeleven/ImpScore)]. Instructions on how to use **ImpScore** is introduced there.
+
+### Usage 2: Local Training
 The code for training the metric is in the repository:
 ```plaintext
 ├── all_data.csv // training data
@@ -38,12 +41,8 @@ When training is finished, the code automatically generates figures for:
 
 **Feel free to modify or extend the data in `all_data.csv` file and train your own metric.**
 
-### Download metric model
-A trained ImpScore metric is available for download on HuggingFace [[link](https://huggingface.co/audreyeleven/ImpScore)].
+#### Training Data
 
-Instructions on how to use **ImpScore** is introduced there.
-
-## Training Data
 The training data consists of 112580 sentence pairs in form of (implicit sentence, explicit sentence). It is available in file `all_data.csv`. In the file, the first row is the header, and each following row consists of two sentence pairs:
 
 positive pair: `(implicit sentence, explicit sentence)`, negative pair: `(implicit sentence, explicit sentence)`
