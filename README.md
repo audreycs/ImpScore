@@ -1,4 +1,4 @@
-# ImpScore
+# ImpScore: A Metric To Calculate The Implicitness Level of Sentence
 
 This is the repository for ICLR 2025 paper [ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentence](https://openreview.net/forum?id=gYWqxXE5RJ).
 
