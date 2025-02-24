@@ -20,7 +20,7 @@ Then, in python code, import this package.
 import impscore
 ```
 
-Use ImpScore to calculate the implicitness score of single English sentence:
+1. Use ImpScore to calculate the implicitness score of single English sentence:
 ```python
 # this will download the default model version '0.1.1' into GPU
 model = impscore.load_model(load_device="cuda")  # or "cpu"
@@ -37,7 +37,7 @@ print(imp_scores)
 # higher score indicates higher level of implicitness.
 ```
 
-Use ImpScore to calculate the implicitness of English sentence pairs, so we can compute their pragmatic distance:
+2. Use ImpScore to calculate the implicitness of English sentence pairs, so we can compute their pragmatic distance:
 ```python
 model = impscore.load_model(load_device="cuda")
 
