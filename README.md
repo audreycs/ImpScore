@@ -3,7 +3,7 @@
 This is the repository for ICLR 2025 paper [ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences](https://openreview.net/forum?id=gYWqxXE5RJ).
 
 ## Package To do list
-- :white_check_mark: ~~Make ImpScore a package~~ (current version `0.1.1`).
+- :white_check_mark: ~~Make ImpScore a package~~ (current version `0.1.2`).
 - :black_square_button: Add functions to enable customized training of ImpScore.
 
 
@@ -22,7 +22,7 @@ import impscore
 
 1. Use ImpScore to calculate the implicitness score of single English sentence:
 ```python
-# this will download the default model version '0.1.1' into GPU
+# this will download the latest model version into GPU
 model = impscore.load_model(load_device="cuda")  # or "cpu"
 
 # sentence list
