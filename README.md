@@ -9,7 +9,7 @@ This is the repository for ICLR 2025 paper [ImpScore: A Learnable Metric For Qua
 
 ## How To Use ImpScore
 ### Download through pip.
-First, directly download it through `pip`.
+First, download it through `pip`.
 
 ```bash
 $ pip install implicit-score
