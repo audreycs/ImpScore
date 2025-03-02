@@ -1,8 +1,10 @@
 # ImpScore: A Metric To Calculate The Implicitness Level of Sentences
 
-This is the repository for ICLR 2025 paper [ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences](https://openreview.net/forum?id=gYWqxXE5RJ).
+This is the repository for ICLR 2025 paper *[ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences](https://openreview.net/forum?id=gYWqxXE5RJ)*.
 
 ## Package To do list
+:hammer: We have built a python package for everyone to download: [https://pypi.org/project/implicit-score/](https://pypi.org/project/implicit-score/).
+
 - :white_check_mark: ~~Make ImpScore a package~~ (current version `0.1.3`).
 - :black_square_button: Add functions to enable customized training of ImpScore.
 
