@@ -110,3 +110,11 @@ When training is completed, the code automatically generates plots for:
 
 **Feel free to modify or extend the data in `all_data.csv` file and train your own metric.**
 
+```bitex
+@inproceddings{wang2024impscore,
+  title={ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences},
+  author={Wang, Yuxin and Zhu, Xiaomeng and Lyu, Weimin and Hassanpour, Saeed and Vosoughi, Soroush},
+  conference={ICLR 2025},
+  year={2025}
+}
+```
