@@ -110,8 +110,8 @@ When training is completed, the code automatically generates plots for:
 
 **Feel free to modify or extend the data in `all_data.csv` file and train your own metric.**
 
-If you use our metric in your work, please cite it.
-```bitex
+Please cite our metric if you use it in your work:
+```bibtex
 @inproceedings{
 wang2025impscore,
 title={ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences},
