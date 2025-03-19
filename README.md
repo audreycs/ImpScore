@@ -112,12 +112,11 @@ When training is completed, the code automatically generates plots for:
 
 Please cite our metric if you use it in your work:
 ```bibtex
-@inproceedings{
-wang2025impscore,
-title={ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences},
-author={Yuxin Wang and Xiaomeng Zhu and Weimin Lyu and Saeed Hassanpour and Soroush Vosoughi},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=gYWqxXE5RJ}
+@inproceedings{wang2025impscore,
+    title={ImpScore: A Learnable Metric For Quantifying The Implicitness Level of Sentences},
+    author={Yuxin Wang and Xiaomeng Zhu and Weimin Lyu and Saeed Hassanpour and Soroush Vosoughi},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=gYWqxXE5RJ}
 }
 ```
